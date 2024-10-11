@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #A0D683
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: #f5f5f5(223, 89, 205);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -17,6 +17,14 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px; /* Ukuran lebar foto */
+    height: 120px; /* Menyamakan tinggi dengan lebar untuk bentuk bulat */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+    margin-bottom: 10px; /* Spasi di bawah gambar */
 }
 
 h1 {
@@ -28,7 +36,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 2px solid #FEFF9F;
     padding-bottom: 5px;
 }
 
